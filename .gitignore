@@ -1,0 +1,12 @@
+# स्रोत PDF (कपिराइट सामग्री — repo मा नराख्ने)
+*.pdf
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
