@@ -159,7 +159,7 @@ Client ले server लाई अनुरोध (request) पठाउँछ, 
 ### जिम्मेवारीको तह — यो चित्र सम्झनुहोस्
 
 ```
-On-premises        IaaS              PaaS              SaaS
+On-premises            IaaS                    PaaS              SaaS
 ─────────────      ─────────────     ─────────────     ─────────────
 Applications  ⬅तपाईं  Applications ⬅तपाईं  Applications ⬅तपाईं  Applications ⬅AWS
 Data          ⬅तपाईं  Data         ⬅तपाईं  Data         ⬅तपाईं  Data         ⬅AWS
