@@ -159,17 +159,17 @@ Client ले server लाई अनुरोध (request) पठाउँछ, 
 ### जिम्मेवारीको तह — यो चित्र सम्झनुहोस्
 
 ```
-On-premises            IaaS                    PaaS              SaaS
-─────────────      ─────────────     ─────────────     ─────────────
-Applications  ⬅तपाईं  Applications ⬅तपाईं  Applications ⬅तपाईं  Applications ⬅AWS
-Data          ⬅तपाईं  Data         ⬅तपाईं  Data         ⬅तपाईं  Data         ⬅AWS
-Runtime       ⬅तपाईं  Runtime      ⬅तपाईं  Runtime      ⬅AWS    Runtime      ⬅AWS
-Middleware    ⬅तपाईं  Middleware   ⬅तपाईं  Middleware   ⬅AWS    Middleware   ⬅AWS
-O/S           ⬅तपाईं  O/S          ⬅तपाईं  O/S          ⬅AWS    O/S          ⬅AWS
-Virtualization⬅तपाईं  Virtualization⬅AWS   Virtualization⬅AWS   Virtualization⬅AWS
-Servers       ⬅तपाईं  Servers      ⬅AWS    Servers      ⬅AWS    Servers      ⬅AWS
-Storage       ⬅तपाईं  Storage      ⬅AWS    Storage      ⬅AWS    Storage      ⬅AWS
-Networking    ⬅तपाईं  Networking   ⬅AWS    Networking   ⬅AWS    Networking   ⬅AWS
+   On-premises                  IaaS                  PaaS                   SaaS
+─────────────             ─────────────         ─────────────            ─────────────
+Applications  ⬅तपाईं    Applications ⬅तपाईं     Applications ⬅तपाईं      Applications ⬅AWS
+Data          ⬅तपाईं    Data         ⬅तपाईं     Data         ⬅तपाईं      Data         ⬅AWS
+Runtime       ⬅तपाईं    Runtime      ⬅तपाईं     Runtime      ⬅AWS       Runtime      ⬅AWS
+Middleware    ⬅तपाईं    Middleware   ⬅तपाईं     Middleware   ⬅AWS       Middleware   ⬅AWS
+O/S           ⬅तपाईं    O/S          ⬅तपाईं     O/S          ⬅AWS       O/S          ⬅AWS
+Virtualization⬅तपाईं    Virtualization⬅AWS     Virtualization⬅AWS      Virtualization⬅AWS
+Servers       ⬅तपाईं    Servers      ⬅AWS      Servers      ⬅AWS       Servers      ⬅AWS
+Storage       ⬅तपाईं    Storage      ⬅AWS      Storage      ⬅AWS       Storage      ⬅AWS
+Networking    ⬅तपाईं    Networking   ⬅AWS      Networking   ⬅AWS       Networking   ⬅AWS
 ```
 
 > **सम्झने तरिका (पिज्जाको उदाहरण):**
